@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  transition: top 0.3s;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar-not-mobile, .navbar-mobile {
+  background-color: #262626;
+  color: white;
+  overflow: hidden;
+  width: 100%;
+  font-family: "Space Grotesk", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  padding: 1em 0;
+}
+
+.nav-links ul {
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.nav-links ul a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.5em 1em;
+  margin: 0 0.5em;
+  text-decoration: none;
+}
+
+.navbar-icon {
+  display: none;
+  font-size: 1.5em;
+  /* margin: 0.5em 1em 0.5em 0em; */
+}
+
+.navbar-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar a{
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .navbar-not-mobile {
+    display: none;
+  }
+
+  .navbar-mobile{
+    display: block;
+  }
+
+  .nav-mob-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar-icon {
+    display: flex;
+    float: right;
+  }
+
+  .mobile-links {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    width: 100%;
+    background-color: #262626;
+    padding: 0 0 1em 2.5em;
+    z-index: 100;
+  }
+
+  .mobile-links li {
+    font-size: 1.2em;
+    margin: 0.5em auto;
+    text-align: center;
+  }
+}
