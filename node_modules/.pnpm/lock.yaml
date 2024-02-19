@@ -1,0 +1,16 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  child-process:
+    specifier: ^1.0.2
+    version: 1.0.2
+
+packages:
+
+  /child-process@1.0.2:
+    resolution: {integrity: sha512-e45+JmjvkV2XQsJ9rUJghiYJ7/9Uk8fyYi1UwfP071VmGKBu/oD1OIwuD0+jSwjMtQkV0a0FVpPTEW+XGlbSdw==}
+    dev: false
