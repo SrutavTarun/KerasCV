@@ -2,6 +2,9 @@
 
 KerasResume is a Python project that utilizes neural style transfer techniques implemented with Keras to enhance videos with artistic styles.
 
+## Demo video
+https://drive.google.com/file/d/1-iqilJtKyAag5M6h6HutsiE2DEyRYfVp/view?usp=sharing
+
 ## Overview
 
 Neural style transfer is a technique that merges the content of one image with the style of another image, resulting in visually appealing and artistic compositions. This project provides a pipeline for performing neural style transfer on images using Keras.
@@ -42,23 +45,9 @@ Neural style transfer is a technique that merges the content of one image with t
    python img_color.py
    python reframe.py
 
-
-
-
 ## Examples
 
-- Content Video: [giphy.mp4]
+- Input Video: [giphy.mp4]
 - Style Image: [starry.jpg]
 - Stylized Video: [my_video.mp4]
 
-## Contributing
-
-Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgements
-
-This project is inspired by the research on neural style transfer and builds upon the techniques proposed in academic literature.
