@@ -1,15 +1,21 @@
-import Navbar from './components/Navbar'
-import Input from './components/Input'
+import React, { useEffect } from "react";
+// import runPythonScripts from "./components/execute";
 
-import './App.css'
+import Navbar from "./components/Navbar";
+import Input from "./components/ImageProcessing";
+import Output from "./components/Output";
+import VideoProcessing from "./components/VideoProcessing";
+
+import "./App.css";
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Input />
+      {/* <Navbar /> */}
+      <VideoProcessing />
+      {/* <Output /> */}
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
